@@ -1,5 +1,7 @@
 import Head from 'next/head'
 
+import Franqueado from '../components/Franqueado';
+
 export default function Home() {
   return (
 
@@ -251,65 +253,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="vertex-franqueados">
-        <div className="container">
-          <div className="row">
-            <div className="col-12 text-center">
-              <p>Encontre o <strong>franqueado</strong> mais perto de <span>você</span></p>
-
-              <img src="/lupa-pesquisa.png" alt=""/>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="area-white franqueados" id="a-vertex-na-sua-cidade">
-        <div className="container">
-          <div className="row">
-            <div className="col-12 text-center">
-              <img src="/pesquise-franqueados.png" alt="Pesquise nossos franqueados"/>
-
-              <form>
-                <div className="table-responsive">
-                  <table>
-                    <thead>
-                      <tr>
-                        <th className="unidades">
-                          <select>
-                            <option className="title"><span>
-                              Unidade
-                              </span>
-                            </option>
-
-                            <option value="vertex guarapuava">vertex Guarapuava</option>
-                            <option value="vertex">vertex</option>
-                          </select>
-                        </th>
-                        
-                        <th className="estados">
-                          <select>
-                            <option className="title"><span>
-                              UF
-                              </span>
-                            </option>
-
-                            <option value="sp">Sp</option>
-                            <option value="sc">Sc</option>
-                          </select>
-                        </th>
-                        <th>Telefone</th>
-                        <th>E-Mail</th>
-                        <th>Instagram</th>
-                      </tr>
-                    </thead>
-                  </table>
-                </div>
-              </form>
-
-            </div>
-          </div>
-        </div>
-      </div>
+      <Franqueado />
 
       <div className="seja-franqueado">
         <div className="container">

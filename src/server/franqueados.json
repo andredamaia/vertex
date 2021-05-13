@@ -1,0 +1,44 @@
+{
+    "franqueados": [
+        {
+            "id": 1,
+            "unidade": "Vertex Guarapuava",
+            "telefone": "42 99977-4800",
+            "email": "guarapuava@vertexlimpezprofissional.com.br",
+            "instagram": "vertex.guarapuava",
+            "uf": "PR"
+        },
+        {
+            "id": 2,
+            "unidade": "Vertex São Paulo 03",
+            "telefone": "11 96323-8181",
+            "email": "saopaulo03@vertexlimpezaprofissional.com.br",
+            "instagram": "vertex.saopaulo03",
+            "uf": "SP"
+        },
+        {
+            "id": 3,
+            "unidade": "Vertex Tatuapé",
+            "telefone": "11 94726-6973",
+            "email": "tatuape@vertexlp.com.br",
+            "instagram": "vertex_tatuape",
+            "uf": "SP"
+        },
+        {
+            "id": 4,
+            "unidade": "Vertex Sorocaba",
+            "telefone": "15 99832-0217",
+            "email": "sorocaba@vertexlimpezaprofissional.com.br",
+            "instagram": "vertex.sorocaba",
+            "uf": "SP"
+        },
+        {
+            "id": 5,
+            "unidade": "Vertex Florianópolis",
+            "telefone": "48 99814-2020",
+            "email": "florianopolis@vertexlimpezaprofissional.com.br",
+            "instagram": "vertex.florianopolis",
+            "uf": "SC"
+        }
+    ]
+}
