@@ -7,22 +7,8 @@ export default function Home() {
       <header>
         <div className="container">
           <div className="row d-flex align-items-center">
-            <div className="col-6 col-xl-3">
+            <div className="col-6 col-md-6 col-xl-3">
               <a href="#"><img src="/logo.png" alt="logo vertex"/></a>
-            </div>
-
-            <div className="col-6 col-md-3 text-right d-md-block d-xl-none">
-              <a href="#menu" className="menu-mobile">
-                  <svg width="26px" height="16px" viewBox="0 0 26 16" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                          <g id="home" transform="translate(-408.000000, -56.000000)" fill="#fff">
-                              <rect id="Rectangle1" x="408" y="56" width="26" height="2"></rect>
-                              <rect id="Rectangle2" x="408" y="63" width="26" height="2"></rect>
-                              <rect id="Rectangle3" x="408" y="70" width="26" height="2"></rect>
-                          </g>
-                      </g>
-                  </svg>
-              </a>
             </div>
 
             <div className="col-12 col-xl-6 d-md-none d-xl-block">
@@ -37,9 +23,23 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="col-12 col-xl-3">
+            <div className="col-6 col-md-6 col-xl-3 d-sm-block menu-button">
               <a href="#seja-um-franqueado" className="button-primary">Seja um Franqueado</a>
             </div>
+
+            {/* <div className="col-6 col-md-3 text-right d-md-block d-xl-none">
+              <a href="#menu" className="menu-mobile">
+                  <svg width="26px" height="16px" viewBox="0 0 26 16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                          <g id="home" transform="translate(-408.000000, -56.000000)" fill="#000">
+                              <rect id="Rectangle1" x="408" y="56" width="26" height="2"></rect>
+                              <rect id="Rectangle2" x="408" y="63" width="26" height="2"></rect>
+                              <rect id="Rectangle3" x="408" y="70" width="26" height="2"></rect>
+                          </g>
+                      </g>
+                  </svg>
+              </a>
+            </div>  */}
           </div>
         </div>
       </header>

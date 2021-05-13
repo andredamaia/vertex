@@ -541,6 +541,12 @@ thead tr th:first-child {
     .img-ball { height: 20rem; width: 20rem;}
 
     .up-box .img-ball .text-ball p, .down-box .img-ball .text-ball p { font-size: 1.3rem;}
+
+    .menu a { font-size: 2rem;}
+
+    .button-primary { font-size: 2rem;}
+
+    
 }
 
 @media(max-width: 1200px) {
@@ -554,6 +560,8 @@ thead tr th:first-child {
     .up-box .img-ball .text-ball p { font-size: 1rem; line-height: 1.7rem;}
 
     .down-box .img-ball .text-ball p { font-size: 1rem; line-height: 1.7rem;}
+    
+    .menu-button { text-align: right !important;}
 }
 
 @media(max-width: 992px) {
