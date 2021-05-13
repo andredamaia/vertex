@@ -1,0 +1,653 @@
+header {
+    background: var(--white);
+    padding: 4rem 0;
+    /* position: fixed;
+    width: 100%; */
+}
+
+header img { max-width: 70%;}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    list-style: none;
+}
+
+.menu ul li {
+    padding: 0 1.5rem;
+}
+
+.menu ul li:first-child { border-right: 2px solid var(--color-secundary)}
+.menu ul li:last-child { border-left: 2px solid var(--color-secundary)}
+
+.menu a {
+    font-size: 2.3rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-secondary);
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.menu a:hover {
+    color: var(--color-primary);
+}
+
+.button-primary {
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: var(--white);
+    padding: 10px 25px;
+    border: 1px solid transparent;
+    border-radius: 60px;
+    background: url('../../public/bg-button-primary.jpg') no-repeat;
+    text-decoration: none;
+    background-size: cover;
+    transition: all .3s ease-in-out;
+}
+
+.button-primary:hover {
+    color: var(--white);
+    background: var(--color-secundary);
+}
+
+.bg-banner {
+    background: url('../../public/banner-1.jpg') center no-repeat;
+    background-size: cover; 
+    padding: 25rem 0;
+    text-align: center;
+    overflow: hidden;
+} 
+
+.rede-franquias p {
+    font-size: 3.2rem;
+    color: var(--white);
+    font-weight: 300;
+    line-height: 4.1rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rede-franquias p span { text-decoration: underline;}
+
+.rede-franquias p strong { font-weight: 700;}
+
+.rede-franquias img { max-width: 75%; margin-bottom: 0.5rem;}
+
+.a-vertex {
+    background: url('../../public/bg-a-vertex.jpg') center no-repeat;
+    background-size: cover;
+    padding: 10rem 0;
+    text-align: center;
+}
+
+.a-vertex p {
+    font-size: 2.5rem;
+    line-height: 3.8rem;
+    color: var(--white);
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.a-vertex p strong { font-weight: 700;}
+
+.area-white {
+    padding: 6rem 0;
+    text-align: center;
+}
+
+.area-white p { 
+    font-size: 2.5rem;
+    color: var(--color-secundary);
+    line-height: 3.3rem;
+    margin-bottom: 4rem;
+}
+
+p.special {
+    font-size: 2.5rem;
+    color: var(--color-primary);
+    line-height: 3.3rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+.valores {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 8rem;
+    gap: 2rem;
+}
+
+.box-img img {
+    max-width: 70%;
+    margin-bottom: 2rem;
+}
+
+.box-text h3 { 
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.box-text p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 500;
+    padding: 0;
+}
+
+.area-video .col-12 { padding: 0;}
+
+.golden-base img { width: 100%; margin-top: -3rem;}
+
+.area-video img { width: 100%;}
+
+.area-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-title img { margin: -9rem 5rem 0 0;}
+
+.area-title h2 img { max-width: 90%; margin: 0;}
+
+.area-title h2 {
+    font-size: 11.8rem;
+    line-height: 5rem;
+    font-weight: 900;
+    text-align: left;
+}
+
+.box-vertex {
+    background: url('../../public/bg-vertex.jpg') center no-repeat;
+    background-size: 100%;
+    margin-top: 10rem;
+}
+
+.up-box{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.down-box{
+    display: flex;
+    justify-content: center;
+}
+
+.img-ball {
+    border: 3px solid #d8c67b;
+    border-radius: 100%;
+    height: 25rem;
+    width: 25rem;
+    position: relative;
+    margin: 0 1rem;
+}
+
+.up-box .img-ball.first {
+    background: url('../../public/up-first.jpg') center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.up-box .img-ball.second {
+    background: url('../../public/up-second.jpg') center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.up-box .img-ball.third {
+    background: url('../../public/up-third.jpg') center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.up-box .img-ball.fourth {
+    background: url('../../public/up-fourth.jpg') center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.up-box .img-ball.fifth {
+    background: url('../../public/up-fifth.jpg') center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.up-box .img-ball .text-ball p {
+    font-size: 1.7rem;
+    color: var(--white);
+    margin: 0;
+    line-height: 2.2rem;
+    font-weight: 700;
+    padding: 0 1rem;
+    text-transform: uppercase;
+}
+
+.down-box .img-ball .text-ball p {
+    font-size: 1.7rem;
+    color: var(--white);
+    margin: 0;
+    line-height: 2.2rem;
+    font-weight: 700;
+    padding: 0 1rem;
+    text-transform: uppercase;
+}
+
+.down-box .img-ball.first {
+    background: url('../../public/down-first.jpg') center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down-box .img-ball.second {
+    background: url('../../public/down-second.jpg') center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down-box .img-ball.third {
+    background: url('../../public/down-third.jpg') center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down-box .img-ball.fourth {
+    background: url('../../public/down-fourth.jpg') center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.seja-franqueado {
+    background: url('../../public/bg-seja-franqueado.jpg') center no-repeat;
+    background-size: cover;
+    padding: 10rem 0;
+}
+
+.area-white h4 {
+    font-size: 7.5rem;
+    font-weight: 900;
+    line-height: 8.3rem;
+    color: var(--color-secondary);
+    margin-bottom: 8rem;
+}
+
+.area-white h4 span {
+    color: var(--color-primary);
+    display: inline-block;
+}
+
+.bg-golden {
+    background: url('../../public/bg-vertex.jpg') center no-repeat;
+    background-size: cover;
+    padding: 10rem 0;
+}
+
+.bg-golden strong {
+    font-size: 3rem;
+    line-height:5.1rem;
+    color: var(--color-secondary);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-golden span { text-decoration: underline; display: inline-block;}
+
+.bg-golden span.white-text { text-decoration: none; color: var(--white);}
+
+.contato {
+    padding: 10rem 0;
+}
+
+.contato h5 {
+    font-size: 3rem;
+    line-height: 3.8rem;
+    color: var(--color-secundary);
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form input {
+    width: 100%;
+    font-size: 2.4rem;
+    border: 2px solid #7f7f7f;
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #7f7f7f;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 8px 0;
+}
+
+.investimento { position: relative;}
+
+.investimento select {
+    width: 100%;
+    font-size: 2.4rem;
+    border: 2px solid #7f7f7f;
+    border-radius: 50px;
+    appearance: none;
+    margin-bottom: 3rem;
+    color: #7f7f7f;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0.8rem 2rem;
+    transition: all .3s ease-in-out;
+}
+
+.investimento img {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    width: 15px;
+}
+
+form textarea {
+    width: 100%;
+    font-size: 2.4rem;
+    border: 2px solid #7f7f7f;
+    border-radius: 40px;
+    margin-bottom: 3rem;
+    color: #7f7f7f;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 3rem;
+}
+
+form.highlight {
+    margin-top: 5rem;
+}
+
+form select img:focus { transform: rotate(180deg);}
+
+button.button-primary {
+    padding: 1rem 5rem;
+}
+
+footer {
+    padding: 4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.endereço { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.square { 
+    border: 1px solid #7f7f7f;
+    padding: 1rem;
+}
+
+.endereço div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.endereço div p {
+    font-size: 2rem;
+    margin: 0;
+    line-height: 2.8rem; 
+}
+
+footer p { color: #7f7f7f;}
+
+footer .text-center p {
+    color: #7f7f7f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: 1.3rem;
+    text-transform: uppercase;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.redes-sociais img { 
+    width: 70%;
+}
+
+.vertex-franqueados {
+    background: url('../../public/vertex-franqueados.jpg') center no-repeat;
+    background-size: cover;
+    padding: 10rem 0;
+    position: relative;
+}
+
+.vertex-franqueados img {
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    right: 0;
+    width: 80px;
+    margin: auto;
+}
+
+.vertex-franqueados p {
+    font-size: 3rem;
+    color: var(--white);
+    line-height: 3.8rem;
+    text-transform: uppercase;
+}
+
+.vertex-franqueados p span { display: inline-block; text-decoration: underline;}
+
+.franqueados img {
+    margin: 2rem 0;
+}
+
+table { 
+    width: 100%;
+    margin: 8rem 0;
+}
+
+table tr { 
+    border: 1px solid black;
+    border-radius: 100px;
+    display: flex;
+    padding: 1.5rem 0;
+}
+
+table thead tr th { 
+    width: 22.5%;
+    position: relative;
+}
+
+table thead tr, table thead tr span, table thead th { 
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.estados { width: 10%;}
+
+
+tbody td { 
+    list-style: none; 
+    text-align: left;   
+}
+
+thead tr th select {
+    border: none;
+    /* appearance: none;
+    background: url('../../public/seta-tabela.png') right no-repeat; */
+}
+
+thead tr th::after {
+    content: '';
+    position: absolute;
+    height: 77px;
+    width: 2px;
+    right: 0;
+    top: -16px;
+    background: #000;
+}
+
+thead tr th:last-child::after { display: none;}
+
+thead tr th:first-child { 
+    padding-left: 1rem;
+}
+
+@media(min-width: 1200px) and (max-width: 1400px) {
+    
+    .img-ball { height: 20rem; width: 20rem;}
+
+    .up-box .img-ball .text-ball p, .down-box .img-ball .text-ball p { font-size: 1.3rem;}
+}
+
+@media(max-width: 1200px) {
+    
+    .valores { grid-template-columns: 1fr 1fr 1fr;}
+
+    .area-title h2 { font-size: 10rem;}
+
+    .img-ball { flex-wrap: wrap; height: 15rem; width: 15rem; }
+
+    .up-box .img-ball .text-ball p { font-size: 1rem; line-height: 1.7rem;}
+
+    .down-box .img-ball .text-ball p { font-size: 1rem; line-height: 1.7rem;}
+}
+
+@media(max-width: 992px) {
+
+    .area-title h2 { font-size: 5.8rem;}
+
+    .img-ball { flex-wrap: wrap; height: 12rem; width: 12rem; }
+
+    .up-box .img-ball .text-ball p { font-size: 0.9rem; line-height: 1.4rem;}
+
+    .down-box .img-ball .text-ball p { font-size: 0.9rem; line-height: 1.4rem;}
+}
+
+@media(max-width: 768px) {
+
+    p {font-size: 1.8rem; line-height: 3rem;}
+    
+    img { width: 100%;}
+
+    .valores { grid-template-columns: 1fr;}
+
+    .menu { display: none;}
+
+    header .button-primary {display: none;}
+
+    .rede-franquias p { margin-bottom: 0;}
+
+    .bg-banner { padding: 8rem 0;}
+
+    .rede-franquias img { max-width: 85%; margin-bottom: 0;}
+
+    .rede-franquias p { font-size: 1.8rem; line-height: 3rem; margin-bottom: 0;}
+
+    .a-vertex p { font-size: 1.8rem; line-height: 3rem; padding: 0 1rem;}
+
+    .area-white { padding: 3rem 1rem; text-align: left;}
+
+    .area-white p { font-size: 1.8rem; line-height: 3rem; margin-bottom: 2rem;}
+
+    .box-valores { text-align: center;}
+
+    .box-text h3 { margin-bottom: 1rem;}
+    
+    .area-title img { margin: -5rem 5rem 0 0; width: 60%;}
+
+    .area-title h2 { font-size: 4rem; line-height: 4rem; text-align: center;}
+
+    .area-title { flex-direction: column;}
+
+    .box-vertex { background: none; margin-top: 3rem;}
+
+    .up-box { flex-wrap: wrap;}
+
+    .down-box { flex-wrap: wrap;}
+
+    .img-ball { text-align: center;  margin-bottom: 1.5rem;}
+
+    .vertex-franqueados { padding: 3rem 0; }
+
+    .vertex-franqueados p { font-size: 2rem; line-height: 3rem;}
+
+    .vertex-franqueados img { width: 60px;}
+
+    table { margin: 2rem 0;}
+
+    table span img { width: 15px;}
+
+    .seja-franqueado img { width: 80%;}
+
+    .area-white h4 { font-size: 3rem; line-height: 4rem; margin-bottom: 2rem;}
+
+    .bg-golden { padding: 3rem 0;}
+
+    .bg-golden strong { font-size: 2rem; line-height: 3rem;}
+
+    .contato { padding: 3rem 0;}
+
+    .contato h5 { font-size: 2rem; line-height: 3rem;}
+
+    form input, form textarea { font-size: 2rem;}
+
+    .investimento select { font-size: 2rem;}
+
+    .endereço { margin-bottom: 2rem; text-align: left;}
+
+    footer .text-center p { padding-bottom: 2rem;}
+
+    .redes-sociais {justify-content: center;}
+}
+
+
+
+
+
+
+
+

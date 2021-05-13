@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #ffffff;
+    --color-secundary: #000000;
+    --color-primary: #bea75b;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+strong { font-weight: 700 !important;}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+} 
+
